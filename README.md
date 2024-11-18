@@ -1,7 +1,3 @@
-Here’s a **README.md** file template for your Dockerized Next.js project:
-
----
-
 # Dockerized Next.js Project
 
 This repository contains a **Next.js application** with **Nodemailer** integration, packaged for deployment using Docker. The application allows users to view job details, apply for jobs, and receive confirmation emails upon applying. 
@@ -29,8 +25,8 @@ This repository contains a **Next.js application** with **Nodemailer** integrati
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/Neem-Sheth/CDC-Portal.git
+cd CDC-Portal
 ```
 
 ### 2. Add a `.env` File
