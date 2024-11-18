@@ -1,5 +1,5 @@
 import nodemailer from "nodemailer";
-import user from "../../models/user";
+import User from "../../models/User";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   console.log("Received username:", username);
   console.log("Received job:", job);
 
-  const student = await user.findOne({ username: username });
+  const student = await User.findOne({ username: username });
   console.log("Retrieved email:", student.email);
   const email = student.email;    
 
